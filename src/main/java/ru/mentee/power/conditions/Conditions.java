@@ -12,5 +12,7 @@ public class Conditions {
 
         String message = (licence && age>=18)?"You can rent a car.":"You can not rent a car.";
         System.out.println(message);
+
+        scanner.close();
     }
 }
